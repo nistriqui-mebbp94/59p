@@ -1,0 +1,120 @@
+#ask-a-question #sendQuestion{
+	width: 70%;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+#ask-a-question .headline-spacer{
+    border-bottom: 2px solid #c3dcb1;
+    display: block;
+    font-size: 20px;
+    margin: 30px 0 15px;
+    padding-bottom: 5px;
+}
+
+#ask-a-question .question-wrapper-textarea{
+	border: 2px solid #1a1a1a;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+	#ask-a-question .question-wrapper-textarea label.placeholder{
+		display: block;
+		padding: 10px 0 5px 0;
+		font-size: 20px;
+	}
+	#ask-a-question .question-wrapper-textarea.open label.placeholder{
+		padding: 5px 0;
+		font-size: 16px;
+	}
+	#ask-a-question .question-wrapper-textarea textarea{
+		display: none;
+		height: 70px;
+		width: 100%;
+		resize: vertical;
+		font-family: "Roboto",sans-serif !important;
+		border: 0 none;
+		padding: 0;
+		font-size: 16px;
+	}
+	#ask-a-question .question-wrapper-textarea.open textarea{
+		display: block;
+	}
+
+#ask-a-question .question-wrapper-text{
+	border: 2px solid #1a1a1a;
+	border-radius: 10px;
+	padding: 10px 0;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+	#ask-a-question .question-wrapper-text > div{
+		padding: 0 10px;
+	}
+	#ask-a-question .question-wrapper-text label.placeholder{
+		display: block;
+		padding: 10px 0 5px 0;
+		font-size: 20px;
+	}
+	#ask-a-question .question-wrapper-text .open label.placeholder{
+		padding: 5px 0;
+		font-size: 16px;
+	}
+	#ask-a-question .question-wrapper-text input{
+		display: none;
+		width: 100%;
+		border: 0 none;
+		padding: 0;
+		font-size: 16px;
+	}
+	#ask-a-question .question-wrapper-text .open input{
+		display: block;
+	}
+
+#ask-a-question .question-wrapper-text.name > div{
+	float: left;
+	width: 48%;
+}
+	#ask-a-question .question-wrapper-text.name > div:not(:last-child){
+		border-right: 1px solid #535254;
+	}
+	#ask-a-question .question-wrapper-text.name > div:last-child{
+		width: 52%;
+	}
+
+#ask-a-question .question-wrapper-text.email{
+	border: 2px solid #008922;
+}
+	#ask-a-question .question-wrapper-text.email input{
+		color: #008922;
+	}
+
+#ask-a-question form input[type="submit"],
+#ask-a-question form input[type="reset"]{
+	margin-left: 10px;
+	float: right;
+}
+	#ask-a-question form input[type="reset"]{
+		background-color: #ffffff;
+		border: 2px solid #ea148c;
+		color: #ea148c;
+	}
+
+
+@media only screen and (max-width: 600px){
+	#ask-a-question #sendQuestion{
+		width: 100%;
+	}
+	#ask-a-question .question-wrapper-text > div{
+		width: 100% !important;
+		border-right: 0 none !important;
+	}
+	#ask-a-question .question-wrapper-text.name > div{
+		border-bottom: 1px solid #535254;
+		padding-bottom: 5px;
+	}
+#ask-a-question form input[type="submit"],
+	#ask-a-question form input[type="reset"]{
+		width: 100%;
+	}
+}

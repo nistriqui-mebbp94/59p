@@ -1,0 +1,738 @@
+body {
+	width: 100%;
+	overflow-x: hidden;
+	line-height: 1.35 !important;
+font-family: 'Roboto', sans-serif !important;
+	font-weight: 300 !important;
+}
+
+::selection {
+background-color: #008922 !important;
+color: #fff !important;
+}
+::-moz-selection {
+background-color: #008922 !important;
+color: #fff !important;
+}
+::-webkit-selection {
+background-color: #008922 !important;
+color: #fff !important;
+}
+
+
+hr {
+	clear: both;
+	border: 0;
+	height: 0;
+	border-top: 1px solid #e6f0de;
+	margin: 1em 0;
+}
+
+h6 {
+font-size: 1.26em !important;
+}
+
+.wrapper {
+	height: 100%;
+	min-height: 100%; 
+	width: 100%;
+/*	overflow: hidden; */
+}
+
+button {
+	font-size: 1.5em !important;
+	padding: .25em .75em !important;
+	border-radius: .65em !important;
+}
+
+.clear {
+	clear: both;
+}
+
+.breadcrumb {
+font-family: 'Roboto', sans-serif !important;
+	font-weight: 300;
+	font-size: 1em;
+	color: #242424;
+	margin-bottom: 1em;
+}
+
+.breadcrumb a {
+	color: #008922;
+	text-decoration: none;
+}
+
+.fixedcontainer.page-note {
+margin-bottom: 1em;
+}
+
+.fixedcontainer .fixedcontainer {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+@media only screen and (max-width: 760px) {
+	.fixedcontainer .fixedcontainer.page-note, .fixedcontainer .fixedcontainer.search-page-content {
+		margin-left: 19px;
+		margin-right: 19px;
+		overflow: visible !important;
+	}
+}
+
+.pagetop--outside {
+	padding: .2em .5em 0 !important;
+	margin-top: -90px !important;
+}
+
+.recipe-overview .pagetop--outside {
+	margin-top: -130px !important;
+}
+
+
+.pagetop h1 {
+
+	font-size: 1.95rem;
+	line-height: 1.125em;
+}
+
+.pagetop h2 {
+	font-size: 1.6em;
+	line-height: 1.125em;
+}
+
+.pagetop p, .pagetop li, .article p, .article li {
+font-family: 'Roboto', sans-serif !important;
+	font-weight: 300;
+	font-size: 1.26em;
+	line-height: 1.35;
+}
+
+.pagetop li p {font-size: inherit !important;}
+
+/* mod by migrosch on 2016-04-26 */
+.pagetop p, .article p {
+	line-height: 1.45;
+margin-bottom: .75em;
+}
+
+.pagetop ul {
+	margin-bottom: .75em;
+}
+
+.pagetop li {
+	line-height: 1.45;
+}
+
+.pagetop p strong, li strong, .article strong {
+ font-weight: 400;
+}
+
+.packshot {
+	width: 25% !important;
+	position: absolute;
+	right: 0;
+	bottom: 20px;
+	padding: .5em .5em 0;
+}
+.packshot img {
+	max-height: 200px;
+}
+.packshot h3 {
+}
+.packshot h3 span {
+	display: inline-block;
+	padding: .1em .5em;
+	background-color: #ea148c;
+	font-size: .8em;
+	color: #fff;
+	margin-left: -.5em;
+}
+.packshot p {
+	font-size: 1em;
+}
+.packshot a {
+	text-decoration: none;
+	font-weight: 600;
+}
+.rating {
+	margin: .125em 0 1em;
+	font-size: 1.35em;
+}
+
+.rating a {
+	text-decoration: none;
+}
+
+.starrr i {
+	font-size: 24px !important;
+}
+
+.accordion__list {
+	margin-bottom: 2em !important;
+}
+
+.accordion__list dt, .accordion__list dd {
+	/* padding: 20px 50px 15px 20px !important; */
+}
+
+
+.accordion__list dt {
+	 padding: 20px 50px 15px 20px !important; 
+}
+
+.accordion__list dd {
+	 padding: 0 20px !important; 
+}
+
+
+.accordion__list dt {
+	line-height: 1;
+}
+
+.accordion__list dt::after {
+	line-height: 70px !important;
+}
+
+.accordion__list dd {
+	padding-top: 0 !important;
+	/* padding-bottom: 2em; */
+	position: relative; overflow: hidden;
+	/* hidden text 
+	max-height: 18em; */
+}
+
+.accordion__list dd:after { 
+content: ' '; background-color: transparent; display: block; height: 2em;}
+
+
+.accordion__list dd  .read-more { 
+  position: absolute;
+  height: 5em; 
+  bottom: 0; 
+
+  left: 0;
+  width: 100%; 
+  margin: 0; 
+  padding: 3em 0 0 20px; 
+  /* "transparent" only works here because == rgba(0,0,0,0) */
+  background-image: linear-gradient(to bottom, transparent, white 60%);
+}
+
+
+.shadowtext h2, .blogcontent h2 {
+	line-height: 1.1;
+}
+
+.l-fifty, .l-hundred {
+	overflow: hidden;
+}
+
+.didyouknow .button {
+	margin-top: 1em;
+}
+
+/* Break point for phone -> tablet */
+@media only screen and (max-width: 760px) {
+
+	body {
+		font-size: 70% !important;
+	}
+
+.promoBar + script + script + script + #livechat-compact-container {
+bottom: 50px !important;
+}
+
+
+		.breadcrumb,  .only-desktop, .l-nav .icon-cart {
+			display: none !important;
+		}
+
+
+.wave {
+	height: 70vw !important;
+}
+
+	.button {
+		font-size: 1.1rem;
+	}
+	
+	a.back-to-top {
+		width: 50px !important;
+		height: 50px !important;
+		border-radius: 10px !important;
+		padding-top: 2px !important;
+		left: 20px !important;
+	}
+	
+
+.pagetop p, .article p {
+	
+	font-size: 1rem;
+}
+
+
+
+.thismightinterestyou { 
+	border-radius: 10px 0 0 10px !important;
+	padding: 8px 10px ;
+	text-align: center;
+	font-size: 1.2rem !important;
+}
+
+
+
+
+	.l-nav {
+		display: none;
+		position: fixed;
+		left: 0px;
+		top: 0px;
+		z-index: 0;
+		margin: .5em;
+		font-size: 150%;
+	}
+	.l-nav.extended {display: block;}	
+	
+	.l-nav a.logo {
+		display: block;
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	.l-nav a.logo {display: none; width: 0; margin: 0; height: 0; padding: 0; visibility: hidden;}
+
+	.l-nav li {
+		margin-bottom: .5em;
+	}
+	
+	.search-box {
+		width: 10.5em;
+		margin: 0 0 1em;
+		padding: .5em 5px .5em 5px;
+		background: #f2f8ed;
+		text-align: left;
+	}
+	.search-box input[type=text] {
+		border: none;
+		background: transparent;
+		font-size: 1em;
+		font-family: 'Roboto',sans-serif;
+		font-weight: 400;
+		width: 80%;
+	}
+	.search-box input[type=text]:placeholder {
+		color: #2e2d30;
+	}
+
+	.search-box button {
+		border: none;
+		background: transparent;
+		float: right;
+		padding: 0 !important;
+		line-height: 25px;
+		color: #008922;
+	}
+	
+	.l-maincol {
+		position: relative;
+		z-index: 1;
+		box-shadow: -2px -20px 15px 0 #333;
+	}
+	
+	.l-maincol, .l-nav-mobile {
+		-ms-transition: transform 0.2s ease-in-out 0s;
+		-webkit-transition: transform 0.2s ease-in-out 0s;
+		transition: transform 0.2s ease-in-out 0s;
+	}
+	
+	.l-nav-mobile.switched, .l-maincol.switched {
+		left: auto;
+		-ms-transform: translate3d(200px, 0px, 0px);
+		-webkit-transform: translate3d(200px, 0px, 0px);
+		transform: translate3d(200px, 0px, 0px);
+	}
+
+	.pagetop {
+		padding-right: 20px !important;
+		margin-top: 70vw !important;
+		margin-bottom: 30px!important;
+		margin-right: 15px!important;
+		margin-left: 15px!important;
+/*
+		width: calc(100% - 30px) !important;
+*/
+	}
+
+/* Changes ssommer 20161018 */
+
+.pagetop { 
+	width: calc(100% - 30px) !important;
+}
+
+.faq .wave{
+	height: calc(18vw + 160px) !important;
+}
+.faq .pagetop {
+	margin-top: calc(20vw + 190px) !important;
+	padding: 0;
+}
+	
+	
+	
+.healthhub .pagetop {
+	display: block!important; 
+	border-radius: 0!important;
+	margin-top: 0!important;
+	margin-left: 0!important; 
+	margin-right: 0!important; 
+	margin-bottom: 0!important; 
+	padding-left: 15px!important; 
+	padding-right: 15px!important;
+	background-color: #FFFFFF; 
+}
+
+	.healthhub .pagetop {
+		width: 100% !important;
+	}
+
+.hubtop--h3 {margin-bottom: 1em;}
+	.pagetop--outside {
+		margin-top: -65px !important;
+	}
+	
+	/* mod by ssommer 20161013 */ 
+		.pagetop--outside {
+		margin: -100px 0 0 -0 !important;
+		}
+	/* mod by migrosch 20161213 */ 
+		.pagetop--outside {
+		margin: -5.125em 0 0 -0 !important;
+		}
+
+	.packshot, .discoveravogel {
+		display: none !important;
+	}
+
+	.accordion {
+		margin: 0 !important;
+		padding: 30px 15px 0 15px !important;
+		width: 100% !important;
+/*
+		background-color: #fff;
+*/
+	}
+/*
+	.accordion__list dt, .accordion__list dd {
+		background-color: #e5f1dc !important;
+	}
+	.accordion__list dt.active a:after {
+		background-color: #e5f1dc !important;
+	}
+*/
+	.accordion__list dt a, 
+	.accordion__list .dt a
+ {
+		font-size: 1.8em !important;
+	}
+	
+	.accordion__list .dt h2 
+ {
+		font-size: 1.8rem !important;
+	}
+	.supportersofhealth {
+		background-image: none !important;
+		background-color: #fff;
+		padding: 20px 0 !important;
+	}
+	.supportersofhealth__head {
+		color: #ea148c !important;
+		font-size: 2.125em;
+		margin-bottom: 0 !important;
+	}
+	.inlay__container {
+		width: 100% !important;
+		min-height: 175px !important;
+	}
+	.inlay {
+		width: 50% !important;
+		margin: 0 !important;
+		border-radius: none !important;
+		box-shadow: none !important;
+		min-height: 175px !important;
+		position: relative;
+		float: left;
+		background-color: none;
+	}
+	.supportersofhealth button {
+		font-size: 1.4em !important;
+		padding: .5em 0 !important;
+	}
+	.supportersofhealth .btn--whitepurple {
+		position: absolute;
+		bottom: 0;
+		left: 15px;
+		width: 80%;
+	}
+	.supportersofhealth img:not(.padded) {
+		padding: 15px;
+	}
+	.supportersofhealth img.padded {
+		padding: 0;
+		padding-top: 25px;
+	}
+	.flustory, .healthtips, .content-box-with-quote, .content-box-recipe-newsletter  {
+		padding: 20px !important;
+		text-align: center;
+		position: relative;
+				height: auto !important;
+
+	}
+	.flustory h2, .healthtips h2, .content-box-with-quote h2, .content-box-recipe-newsletter h2, .flustory h3, .healthtips h3, .content-box-recipe-newsletter h3 {
+		font-size: 1.8em;
+		font-family: "ff-dax-web-pro",sans-serif;
+		color: #234e09;
+	}
+	.flustory p, .healthtips p, .content-box-recipe-newsletter p {
+		text-align: left !important;
+	}
+
+	.flustory .button, .content-box-with-quote .button {
+		position: absolute;
+		bottom: 1em;
+		min-width: 12em;
+		
+		left: 50%;
+		transform: translateX(-50%);	
+	}
+
+	.healthtips input, .content-box-recipe-newsletter input {
+		border: 1px solid grey;
+		border-radius: .25em;
+		margin-right: .25em;
+		font-size: 1.8em;
+		width: 75%;
+		vertical-align: middle;
+		padding:0.2em;
+	}
+	.healthtips .button, .content-box-recipe-newsletter button {
+		display: inline-block;
+		margin: 1em 0;
+	}
+	.healthtips form button, .content-box-recipe-newsletter form button {
+		vertical-align: middle;
+	}
+
+	.blog-teaser {
+		overflow-y: auto;
+		background-color: #fff;
+	}
+	.blog-teaser figure {
+		width: 250px;
+		float: left;
+		margin: 1em;
+	}
+	.blog-teaser figcaption {
+		font-size: 1.5em;
+	}
+	.blog-teaser figcaption strong {
+		color: #008922;
+		font-weight: 400;
+	}
+}
+
+/* Break point for phone -> tablet */
+@media only screen and (min-width: 761px) {
+	.only-mobile {
+		display: none !important;
+	}
+	.flustory, .healthtips, .content-box-with-quote, .content-box-recipe-newsletter  {
+		padding: 20px !important;
+		text-align: center;
+		position: relative;
+		min-height: 40rem !important;
+
+	}
+
+	.flustory h2, .healthtips h2, .content-box-with-quote h2, .content-box-recipe-newsletter h2, .flustory h3, .healthtips h3, .content-box-recipe-newsletter h3 {
+		font-size: 1.5em;
+		font-family: "ff-dax-web-pro",sans-serif;
+		color: #234e09;
+		margin: 1em;
+	}
+	
+	.flustory p, .healthtips p, .content-box-recipe-newsletter p {
+		text-align: left !important;
+		font-size: 1.125em;
+		padding:  0 20px;
+	}
+
+	.flustory .button, .content-box-with-quote .button {
+		min-width: 12em;
+		position: absolute;
+		bottom: 1em;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	.healthtips input, .content-box-recipe-newsletter input {
+		border: 1px solid grey;
+		border-radius: .25em;
+		margin-right: .25em;
+		font-size: 1.8em;
+		width: 50%;
+		vertical-align: middle;
+		padding: 0 0.2em;
+		line-height: 1.35;
+	}
+
+
+	.healthtips .button, .content-box-recipe-newsletter .buton {
+		display: inline-block;
+		margin: 1em 0;	
+	}
+
+	.healthtips input[type=text], .content-box-recipe-newsletter input[type=text]  {font-size: 1.1rem; padding: 0.4em;}
+	.healthtips form button, .content-box-recipe-newsletter form button {
+		vertical-align: middle;
+	}
+	.faq__content figure, .faq__content img {
+		display: inline-block;
+		float: left;
+		margin: 0 .5em .5em 0;
+	}
+}
+
+.productSearchSocialMedia {
+cursor: pointer;
+}
+
+input[type=submit], input[type=reset] {
+		-webkit-appearance:none;
+}
+
+/* .packshot--icons { display: none; } */
+
+.edit-info {
+color: red;
+}
+.debug-info {
+clear: both;
+color: blue;
+font-family: 'Courier New',Courier,'Lucida Sans Typewriter','Lucida Typewriter',monospace;
+border: 2px solid blue;
+padding: .5em;
+margin-bottom: 1em;
+}
+
+.newsletter-signup form {
+text-align: center;
+margin-bottom: .5em;
+}
+
+.newsletter-signup input[type=text], .newsletter-signup input[type=email] {
+width: 90%;
+margin-bottom: .5em;
+padding: .25em .5em;
+border: 2px solid #808080;
+border-radius: 0.75em;
+font-size: 1rem;
+font-family: 'Roboto',sans-serif;
+height: 2rem;
+color: #008922;
+}
+
+a.fancybox-close:hover {
+background-color: transparent;
+}
+/*
+@media only screen and (min-width: 761px) and (max-width: 1279px) {
+	input#nav-search-input {
+		border: none;
+		background: #f2f8ed;
+		font-size: 1em;
+		font-family: "open-sans",sans-serif;
+		font-weight: 400;
+		width: 83%;
+		border-radius: 4px;
+		padding: .25em;
+		margin-left: .25em;
+	}
+}
+
+@media only screen and (min-width: 1280px) {
+	input#nav-search-input {
+		border: none;
+		background: transparent;
+		font-size: 1em;
+		font-family: "open-sans",sans-serif;
+		font-weight: 400;
+		width: 85%;
+	}
+}
+
+input#homepage-search-input {
+	font-size: 1.4em; 
+	line-height: 2em; 
+	height: 3rem;
+	min-width: 40%;
+	margin-right: 0.5em; 
+	padding-left: 0.5em; 
+	padding-right: 0.5em;
+	border-radius: 10px;
+	border: 2px solid #808080;
+}
+
+@media only screen and (max-width:760px) {
+	input#homepage-search-input {
+		-webkit-appearance:none;
+		font-size: 1.6em;
+	}
+}
+*/
+
+
+/* ADDITIONS BY S.SOMMER ON  2017-03-01 */
+.fixedcontainer.teasers.hiddenteasers, .healthhub .teasers.hiddenteasers {margin: 0; visibility: hidden; padding: 0;}
+@media only screen and (max-width: 760px)
+{
+	.healthhub .teasers.hiddenteasers {height: 0;}
+	
+	}
+
+
+.didyouknow .button { 
+    white-space: normal !important;
+}
+
+#signup table th, #signup table td {
+border-color: transparent;
+}
+
+#signup .bigText {
+width: 100%;
+font-size: 1rem;
+height: 2em;
+}
+
+
+
+.padded-multiline { 
+	/* update by ssommer 2017-11-28 */
+	line-height: 1.49;
+}
+
+#cludo-search-results .search-results .search-results-item a h2 {
+color: #008922 !important;
+}
+
+#cludo-search-results hr.shadow-border {
+    border: 1px solid #fff;
+    box-shadow: 0 -2px 2px #e8e7e7;
+    margin: 0;
+    position: relative;
+    z-index: 0;
+}
+
+#cludo-home-search input[type='search'] {
+    width: calc(100% - 85px) !important;
+}

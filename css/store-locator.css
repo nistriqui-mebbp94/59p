@@ -1,0 +1,352 @@
+#storeLocatorResultsOuterBox{
+	display: none;
+}
+
+#storeLocatorMapBox{
+	overflow: hidden;
+	margin: 40px 0;
+}
+	#storeLocatorMapBox .store-details{
+		float: left;
+		width: 380px;
+		height: 625px;
+		background-color: #e6f0de;
+		overflow-y: scroll;
+	}
+	#storeLocatorMapBox .store-details .storeLocatorBoxSearchBar{
+		margin: 20px 0 25px 20px;
+	}
+	#storeLocatorMapBox .store-details .storeLocatorBoxSearchBar span.headline{
+		font-size: 22px;
+		color: #008922;
+		display: block;
+	}
+	#storeLocatorMapBox .store-details .storeLocatorBoxSearchBar .storeLocatorUserInput{
+		border: 2px solid #888;
+		border-radius: 10px;
+		float: left;
+		font-size: 20px;
+		padding: 5px 10px;
+		width: 175px;
+		margin-right: 15px;
+	}
+	#storeLocatorMapBox .store-details .storeLocatorBoxSearchBar button{
+		background-color: #ea148c;
+		border: 0 none;
+		color: #FFFFFF;
+		padding: 8px 30px 5px 30px !important;
+		cursor: pointer;
+		font-size: 24px;
+
+		-webkit-transition: all 500ms ease;
+		-moz-transition: all 500ms ease;
+		-ms-transition: all 500ms ease;
+		-o-transition: all 500ms ease;
+		transition: all 500ms ease;
+	}
+	#storeLocatorMapBox .store-details .storeLocatorBoxSearchBar button:hover{
+		background-color: #b92478;
+	}
+	#storeLocatorMapBox .store-details .storeLocatorType{
+		background-color: #FFFFFF;
+		border-radius: 5px;
+		box-shadow: 2px 2px 5px #999;
+		margin: 0 0 25px 20px;
+		width: 90%;
+		padding: 10px 20px;
+		box-sizing: border-box;
+	}
+	#storeLocatorMapBox .store-details .storeLocatorType span.headline{
+		color: #008922;
+		display: block;
+		font-size: 22px;
+	}
+	#storeLocatorMapBox .store-details .storeLocatorType > div{
+		overflow: hidden;
+		font-size: 20px;
+		position: relative;
+		line-height: 18px;
+		padding-bottom: 10px;
+	}
+	#storeLocatorMapBox .store-details .storeLocatorType > div input[type=checkbox]{
+		display: none;
+	}
+	#storeLocatorMapBox .store-details .storeLocatorType > div input[type=checkbox] + label{
+		height: 25px;
+		width: 27px;
+		display:inline-block;
+		padding: 0 0 0 0px;
+		border: 2px solid #535254;
+	}
+	#storeLocatorMapBox .store-details .storeLocatorType > div input[type=checkbox]:checked + label{
+		height: 25px;
+		width: 27px;
+		display:inline-block;
+		padding: 0 0 0 0px;
+	}
+	#storeLocatorMapBox .store-details .storeLocatorType > div input[type=checkbox]:checked + label:before{
+		font-family: "icomoon" !important;
+		content: '\e908';
+		color: #54ae3a;
+		display: inline-block;
+		margin: 3px 0 0 1px;
+	}
+	#storeLocatorMapBox .store-details .storeLocatorType > div label span{
+		position:absolute;
+		left:0;
+		margin-top: 4px;
+	}
+	#storeLocatorMapBox .store-details .storeLocatorType > div label{
+		float:right;
+	}
+	#storeLocatorMapBox .store-details ul{
+		list-style-type: none;
+		margin: 0;
+	}
+	#storeLocatorMapBox .store-details ul li{
+		background-color: #FFFFFF;
+		border-radius: 5px;
+		box-shadow: 2px 2px 5px #999;
+		margin: 0 0 25px 20px;
+		width: 90%;
+		padding: 10px 20px;
+		box-sizing: border-box;
+		position: relative;
+		line-height: 25px;
+	}
+	#storeLocatorMapBox .store-details ul li span.type{
+		font-size: 15px;
+	}
+	#storeLocatorMapBox .store-details ul li span.marker{
+		border: 3px solid #ea148c;
+		border-radius: 15px;
+		color: #ea148c;
+		height: 30px;
+		line-height: 25px;
+		position: absolute;
+		right: 10px;
+		text-align: center;
+		top: 10px;
+		width: 30px;
+	}
+
+	#storeLocatorMapBox .store-details ul li span.marker.HFS{
+		border-color: #d85b9a;
+		color: #d85b9a;
+	}
+
+
+	#storeLocatorMapBox .store-details ul li span.marker.Pharmacy{
+		border-color: #4397bb;
+		color: #4397bb;
+	}
+
+
+	#storeLocatorMapBox .store-details ul li span.marker.Supermarket{
+		border-color: #d99241;
+		color: #d99241;
+	}
+
+	
+	#storeLocatorMapBox .store-details ul li span.marker.Therapeutes{
+		border-color: #b1889f;
+		color: #b1889f;
+	}
+
+	#storeLocatorMapBox #store-right{
+		float: left;
+		width: calc(100% - 380px);
+		height: 620px;
+	}
+	#storeLocatorMapBox #gmap{
+		height: 625px;
+	}
+	#storeLocatorMapBox .storeLocatorNotifyBox{
+		background-color: #e6f0de;
+		height: 185px;
+		text-align: center;
+		padding: 20px;
+	}
+	#storeLocatorMapBox .storeLocatorNotifyBox input[type="text"]{
+		border: 2px solid #888;
+		border-radius: 10px;
+		font-size: 20px;
+		padding: 5px 10px;
+		width: 175px;
+		margin-right: 15px;
+	}
+	#storeLocatorMapBox .storeLocatorNotifyBox button{
+		background-color: #ea148c;
+		border: 0 none;
+		color: #FFFFFF;
+		padding: 8px 30px 5px 30px !important;
+		cursor: pointer;
+		font-size: 24px !important;
+
+		-webkit-transition: all 500ms ease;
+		-moz-transition: all 500ms ease;
+		-ms-transition: all 500ms ease;
+		-o-transition: all 500ms ease;
+		transition: all 500ms ease;
+	}
+	#storeLocatorMapBox .storeLocatorNotifyBox button:hover{
+		background-color: #b92478;
+	}
+	#storeLocatorMapBox .storeLocatorNotifyBox .errorInfo{
+		display: none;
+	}
+	#storeLocatorMapBox .infoBoxContainer{
+		background-color: #FFFFFF;
+		padding: 10px;
+		border-radius: 5px 5px 5px 0;
+		box-shadow: 2px 2px 4px #aaa;
+		line-height: 25px;
+		height: auto !important;
+		margin-top: 20px;
+	}
+	#storeLocatorMapBox .infoBoxContainer:after{
+		background: url(../images/infobox-corner.png) no-repeat;
+		bottom: -7px;
+		content: "";
+		display: block;
+		height: 7px;
+		left: 0;
+		position: absolute;
+		width: 9px;
+	}
+	#storeLocatorMapBox .infoBoxContainer > p {
+		margin-bottom: 0;
+	}
+	#storeLocatorMapBox .infoBoxContainer > p:first-child{
+		font-size: 15px;
+	}
+	#storeLocatorMapBox .infoBoxContainer h3{
+		color: #008922 !important;
+		font-family: "Roboto",sans-serif !important;
+		font-size: 20px !important;
+	}
+	#storeLocatorMapBox .infoBoxContainer > p:last-child{
+		font-size: 20px;
+	}
+
+#map-container{
+	width: 100%;
+	height: 600px;
+}
+#map-container .gm-style-iw {
+	width: 235px !important;
+	height: 170px;
+	top: 0 !important;
+	left: 10px !important;
+	overflow: visible !important;
+	background: rgba(255, 255, 255, 0.85) none repeat scroll 0 0;
+	border-radius: 0 5px 5px 0;
+	box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
+	margin: 5px;
+	padding: 15px;
+}
+#map-container .gm-style-iw:before {
+	content: "";
+	border-style: solid;
+	border-width: 85px 15px 85px 0;
+	border-color: transparent rgba(255, 255, 255, 0.85) transparent transparent;
+	position: absolute;
+	left: -15px;
+	top: 0;
+}
+#map-container .infowindow{
+	width: 200px;
+}
+
+@media only screen and (max-width: 900px){
+	#storeLocatorMapBox #gmap,
+	#storeLocatorMapBox #store-right{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px){
+	#storeLocatorMapBox .store-details ul li{
+		float: left;
+		width: calc(50% - 10px) !important;
+	}
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 900px){
+	#storeLocatorMapBox .store-details{
+		width: 340px !important;
+		height: 625px !important;
+	}
+	#storeLocatorMapBox #store-right{
+		width: calc(100% - 340px);
+	}
+}
+
+@media only screen and (max-width: 900px){
+	#storeLocatorMapBox .store-details{
+		overflow-y: visible;
+		height: auto;
+	}
+}
+
+@media only screen and (max-width: 1100px){
+	#storeLocatorMapBox .store-details .storeLocatorBoxSearchBar .storeLocatorUserInput{
+		width: calc(100% - 25px);
+	}
+	#storeLocatorMapBox .store-details .storeLocatorBoxSearchBar button{
+		margin-top: 5px;
+		width: calc(100% - 26px);
+	}
+	#storeLocatorMapBox .store-details{
+		width: 100%;
+	}
+	#storeLocatorMapBox .store-details .storeLocatorType{
+		margin-bottom: 5px;
+		margin-left: 5px;
+		width: calc(100% - 10px);
+	}
+	#storeLocatorMapBox .store-details ul li{
+		margin-bottom: 5px;
+		margin-left: 5px;
+		width: calc(100% - 10px);
+		line-height: 20px;
+	}
+	#storeLocatorMapBox #store-right{
+		height: auto;
+	}
+	#storeLocatorMapBox .storeLocatorNotifyBox{
+		height: auto;
+	}
+	#storeLocatorMapBox .storeLocatorNotifyBox input[type="text"]{
+		margin-bottom: 5px;
+	}
+	#storeLocatorMapBox .infoBoxContainer{
+		line-height: 20px;
+		width: 200px !important;
+		margin-top: 35px;
+	}
+	#storeLocatorMapBox .infoBoxContainer > p:first-child{
+		font-size: 12px;
+	}
+	#storeLocatorMapBox .infoBoxContainer h3{
+		font-size: 15px !important;
+	}
+	#storeLocatorMapBox .infoBoxContainer > p:last-child{
+		font-size: 15px;
+	}
+}
+.storeLocatorLegend td {border: none; padding:0; }
+.storeLocatorLegend td:nth-of-type(2)  {padding-right:1em; }
+
+.storeLocatorLegend img {max-width: 50px; margin: -20% -10%;}
+.storeLocatorLegend h3 {
+	font-size: 1rem;
+  color: black;
+	line-height: 1;
+}
+.storeLocatorLegend p {
+    font-size: 0.8em;
+    color: #008922;
+		line-height: 1;
+
+}
